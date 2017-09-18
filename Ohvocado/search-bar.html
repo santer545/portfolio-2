@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ohvocado</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/fancybox.css" />
+	<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<div id='wrapper' class="search-page">
+	<header id='header'>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src='images/logo2.jpg' height="52" width="153" alt='Oh!vocado' /></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<form class="search-form form-inline pull-left">
+						<div class="form-group">
+							<label class="sr-only" for="country">location</label>
+							<select class="country country2" id="country">
+								<option>Panama</option>
+								<option>Panama</option>
+								<option>Panama</option>
+								<option>Panama</option>
+								<option>Panama</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="search">search</label>
+							<div class="input-group">
+								<div class="input-group-addon"><i class="icon-search"></i></div>
+								<input type="search" id="search" placeholder="Restaurant, cuisine, dish" class="form-control">
+							</div>
+						</div>
+						<button type="submit" class="btn btn-danger">Search</button>
+					</form>
+					<div class="sign-in-box pull-right">
+						<a href="#" class="add"><i class="icon-square"></i>Add a listing</a>
+						<div class="sign-up">
+							<a href="#">Sign in</a>
+							<a href="#" class="btn btn-danger">Sign up</a>
+						</div>
+						<div class="sign-in">
+							<a href="#" class="user">Ian Kendrew <span class="caret"></span></a>
+							<img src='images/avatar.png' height="38" width="38" alt='image description' class="avatar img-circle"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main id='main' role='main'>
+		<div class="two-columns">
+			<div id="content" class="js-grid-list-holder">
+				<div class="js-ajax-search-container" data-url="inc/ajax-dishes1.html">
+					<form class="filters js-ajax-filters-form">
+						<div class="js-filters-open-close">
+							<div class="js-filters-top-block">
+								<div class="top-box">
+									<div class="form-inline">
+										<div class="form-group">
+											<label for="ingredientes">Ingredientes</label>
+											<div class="input-holder">
+												<input type="text" class="form-control" id="ingredientes">
+											</div>
+										</div>
+									</div>
+									<div class="range-holder">
+										<input type="range" name="renge-filter" max="100" min="0" value="1" list="data">
+									</div>
+									<ul class="data-list list-unstyled list-inline">
+										<li>Dulce</li>
+										<li>Salado</li>
+										<li>Picante</li>
+										<li>Acido</li>
+										<li>Amargo</li>
+									</ul>
+									<div class="form-group">
+										<span class="title">Tipo de cocina</span>
+										<div class="checkbox-holder">
+											<label class="checkbox-inline">
+												<input type="checkbox" name="check-filter1" value="option1"><span class="text">Italiana</span>
+											</label>
+											<label class="checkbox-inline">
+												<input type="checkbox" name="check-filter2" value="option2"><span class="text">Thai</span>
+											</label>
+											<label class="checkbox-inline">
+												<input type="checkbox" name="check-filter3" value="option3"><span class="text">Panameña</span>
+											</label>
+											<label class="checkbox-inline">
+												<input type="checkbox" name="check-filter4" value="option4"><span class="text">Mediterranea</span>
+											</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<span class="title">Servicios</span>
+										<div class="checkbox-holder">
+											<label class="checkbox-inline">
+												<input type="checkbox" name="check-filter5" value="option5"><span class="text">Tv</span>
+											</label>
+											<label class="checkbox-inline">
+												<input type="checkbox" name="check-filter6" value="option6"><span class="text">WiFi</span>
+											</label>
+											<label class="checkbox-inline">
+												<input type="checkbox" name="check-filter7" value="option7"><span class="text">Reservas</span>
+											</label>
+											<label class="checkbox-inline">
+												<input type="checkbox" name="check-filter8" value="option8"><span class="text">Tarjeta de crédito</span>
+											</label>
+										</div>
+									</div>
+									<div class="filter-holder">
+										<div class="grid-list">
+											<a href="#" class="js-btn-list btn btn-default active"><i class="icon-list"></i></a>
+										<a href="#" class="js-btn-grid btn btn-default"><i class="icon-grid"></i></a>
+										</div>
+										<div class="form-filter">
+											<div class="holder">
+												<select name="select-filter1">
+													<option>Zona</option>
+													<option>Zona</option>
+													<option>Zona</option>
+												</select>
+											</div>
+											<div class="holder">
+												<select name="select-filter2">
+													<option>Order by rating</option>
+													<option>Order by rating</option>
+													<option>Order by rating</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix">
+										<button class="pull-right opener js-btn-opener">Busqueda Avazada</button>
+									</div>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="form-group">
+									<span class="title">Tipo de cocina</span>
+									<div class="checkbox-holder">
+										<label class="checkbox-inline">
+											<input type="checkbox" name="check-filter9" value="option1"><span class="text">Italiana</span>
+										</label>
+										<label class="checkbox-inline">
+											<input type="checkbox" name="check-filter10" value="option2"><span class="text">Thai</span>
+										</label>
+										<label class="checkbox-inline">
+											<input type="checkbox" name="check-filter11" value="option3"><span class="text">Panameña</span>
+										</label>
+										<label class="checkbox-inline">
+											<input type="checkbox" name="check-filter12" value="option4"><span class="text">Mediterranea</span>
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<span class="title">Servicios</span>
+									<div class="checkbox-holder">
+										<label class="checkbox-inline">
+											<input type="checkbox" name="check-filter13" value="option5"><span class="text">Tv</span>
+										</label>
+										<label class="checkbox-inline">
+											<input type="checkbox" name="check-filter14" value="option6"><span class="text">WiFi</span>
+										</label>
+										<label class="checkbox-inline">
+											<input type="checkbox" name="check-filter15" value="option7"><span class="text">Reservas</span>
+										</label>
+										<label class="checkbox-inline">
+											<input type="checkbox" name="check-filter16" value="option8"><span class="text">Tarjeta de crédito</span>
+										</label>
+									</div>
+								</div>
+								<div class="filter-holder">
+									<div class="grid-list">
+										<a href="#" class="js-btn-list btn btn-default active"><i class="icon-list"></i></a>
+									<a href="#" class="js-btn-grid btn btn-default"><i class="icon-grid"></i></a>
+									</div>
+									<div class="form-filter">
+										<div class="holder">
+											<select name="select-filter3">
+												<option>Zona</option>
+												<option>Zona</option>
+												<option>Zona</option>
+											</select>
+										</div>
+										<div class="holder">
+											<select name="select-filter4">
+												<option>Order by rating</option>
+												<option>Order by rating</option>
+												<option>Order by rating</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="opener-holder">
+									<a href="#" class="opener result btn btn-danger js-ajax-filter-btn">Show Results</a>
+								</div>
+							</div>
+						</div>
+						<div class="dishes-list js-ajax-content">
+							<article class="dish">
+								<div class="row">
+									<div class="col-md-5 col-sm-3 col-xs-3">
+										<img src='images/img-46.jpg' height="170" width="236" alt='image description' class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-9 col-xs-9">
+										<div class="title-box">
+											<strong><a href="#">Lomito</a></strong>
+											<ul class="star-rating">
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li><a href="#"><i class="icon-star"></i></a></li>
+											</ul>
+										</div>
+										<strong class="subtitle"><a href="#">Las Clementinas Café &amp; Bar</a></strong>
+										<div class="box">
+											<div class="tags">
+												<a href="#">#Chicken</a>
+												<a href="#">#BBQ Sauce</a>
+												<a href="#">#Peppers</a>
+											</div>
+											<span class="price">$8.99</span>
+										</div>
+										<div class="description">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum. Lorem ipsum dolor sit </p>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="btn-block">
+											<a href="#" class="btn btn-default">Write a review</a>
+											<a href="#" class="btn btn-default">I want</a>
+											<a href="#" class="btn btn-danger">Add a photo</a>
+											<a href="#" class="btn btn-default">Order</a>
+											<a href="#" class="btn btn-default">Share</a>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="dish">
+								<div class="row">
+									<div class="col-md-5 col-sm-3 col-xs-3">
+										<img src='images/img-47.jpg' height="172" width="244" alt='image description' class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-9 col-xs-9">
+										<div class="title-box">
+											<strong><a href="#">Lomito</a></strong>
+											<ul class="star-rating">
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li><a href="#"><i class="icon-star"></i></a></li>
+											</ul>
+										</div>
+										<strong class="subtitle"><a href="#">Las Clementinas Café &amp; Bar</a></strong>
+										<div class="box">
+											<div class="tags">
+												<a href="#">#Chicken</a>
+												<a href="#">#BBQ Sauce</a>
+												<a href="#">#Peppers</a>
+											</div>
+											<span class="price">$8.99</span>
+										</div>
+										<div class="description">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum. Lorem ipsum dolor sit </p>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="btn-block">
+											<a href="#" class="btn btn-default">Write a review</a>
+											<a href="#" class="btn btn-default">I want</a>
+											<a href="#" class="btn btn-danger">Add a photo</a>
+											<a href="#" class="btn btn-default">Order</a>
+											<a href="#" class="btn btn-default">Share</a>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="dish">
+								<div class="row">
+									<div class="col-md-5 col-sm-3 col-xs-3">
+										<img src='images/img-48.jpg' height="170" width="244" alt='image description' class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-9 col-xs-9">
+										<div class="title-box">
+											<strong><a href="#">Lomito</a></strong>
+											<ul class="star-rating">
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li><a href="#"><i class="icon-star"></i></a></li>
+											</ul>
+										</div>
+										<strong class="subtitle"><a href="#">Las Clementinas Café &amp; Bar</a></strong>
+										<div class="box">
+											<div class="tags">
+												<a href="#">#Chicken</a>
+												<a href="#">#BBQ Sauce</a>
+												<a href="#">#Peppers</a>
+											</div>
+											<span class="price">$8.99</span>
+										</div>
+										<div class="description">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum. Lorem ipsum dolor sit </p>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="btn-block">
+											<a href="#" class="btn btn-default">Write a review</a>
+											<a href="#" class="btn btn-default">I want</a>
+											<a href="#" class="btn btn-danger">Add a photo</a>
+											<a href="#" class="btn btn-default">Order</a>
+											<a href="#" class="btn btn-default">Share</a>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="dish">
+								<div class="row">
+									<div class="col-md-5 col-sm-3 col-xs-3">
+										<img src='images/img-49.jpg' height="173" width="244" alt='image description' class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-9 col-xs-9">
+										<div class="title-box">
+											<strong><a href="#">Lomito</a></strong>
+											<ul class="star-rating">
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+												<li><a href="#"><i class="icon-star"></i></a></li>
+											</ul>
+										</div>
+										<strong class="subtitle"><a href="#">Las Clementinas Café &amp; Bar</a></strong>
+										<div class="box">
+											<div class="tags">
+												<a href="#">#Chicken</a>
+												<a href="#">#BBQ Sauce</a>
+												<a href="#">#Peppers</a>
+											</div>
+											<span class="price">$8.99</span>
+										</div>
+										<div class="description">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum. Lorem ipsum dolor sit </p>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="btn-block">
+											<a href="#" class="btn btn-default">Write a review</a>
+											<a href="#" class="btn btn-default">I want</a>
+											<a href="#" class="btn btn-danger">Add a photo</a>
+											<a href="#" class="btn btn-default">Order</a>
+											<a href="#" class="btn btn-default">Share</a>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="map-holder">
+				<div class="bg-stretch">
+					<img src='images/map.jpg' alt='image description' />
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer id='footer'>
+		<div class="top-footer">
+			<div class="pull-left">
+				<div class='logo'><a href='#'><img src='images/footer-logo.png' alt='Ohvocado' /></a></div>
+				<nav class='nav'>
+					<ul>
+						<li><a href='#'>About us</a></li>
+						<li><a href='#'>Media</a></li>
+						<li><a href='#'>Help</a></li>
+						<li><a href='#'>Advertisers</a></li>
+						<li><a href='#'>Terms</a></li>
+						<li><a href='#'>Privacy</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="pull-right apps-holder">
+				<div class="apps-box">
+					<span>Available now for <strong>Android</strong> and <strong>iOS</strong></span>
+					<a href="#"><img src='images/google-play.png' height="26" width="24" alt='image description' /></a>
+					<a href="#"><i class="icon-apple"></i></a>
+				</div>
+				<a href="#" class="btn btn-danger">Add a listing</a>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<p class="copyright pull-left">©2015 Ovocado. All rights reserved.</p>
+			<ul class="social-networks pull-right">
+				<li><a href="#"><i class="icon-twitter"></i></a></li>
+				<li><a href="#"><i class="icon-facebook"></i></a></li>
+				<li><a href="#"><i class="icon-instagram"></i></a></li>
+				<li><a href="#"><i class="icon-pinterest"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.main.js"></script>
+<script type="text/javascript">
+	if (navigator.userAgent.match(/IEMobile\/10\.0/) || navigator.userAgent.match(/MSIE 10.*Touch/)) {
+		var msViewportStyle = document.createElement('style')
+		msViewportStyle.appendChild(
+			document.createTextNode(
+				'@-ms-viewport{width:auto !important}'
+			)
+		)
+		document.querySelector('head').appendChild(msViewportStyle)
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+// custom variables and override bootstrap variables
+
+
+$grid-gutter-width:20px;
+$container-large-desktop: 960px;
+$grid-float-breakpoint:992px;
+
+
+$text-color:#777;
+$brand-danger:#d76868;
+$brand-success:#59ab49;
+$red:#bc0404;
+$link-color:$brand-danger;
+$black: #000;
+$light-black:#3c3c3c;
+$gray:#d7d7d7;
+$white:#fff;
+
+$body-bg: $white;
+
+$font-family-sans-serif:'Roboto',Arial, Helvetica, sans-serif;
+$font-size-base:13px;
+$line-height-base:1.76924;
+
+$border-radius-base:2px;
+$input-border:$gray;
+
+$btn-default-color:#b6b6b6;
+$btn-default-border:#bebcbd;
+$btn-primary-border:#818181;
+
+$badge-bg:$brand-danger;
+$badge-border-radius:9px;
+
+$navbar-height:60px;
+$navbar-default-bg:transparent;
+$navbar-default-border:transparent;
+$navbar-default-toggle-border-color:$brand-danger;
+$navbar-default-toggle-icon-bar-bg:$white;
+$navbar-default-toggle-hover-bg:$red;

@@ -1,0 +1,55 @@
+// custom variables and override bootstrap variables
+
+$body-bg: #fff;
+
+$brand-primary:         #ce7eeb;
+$brand-success:         #1eeaa0;
+$brand-info:            #1ed0ea;
+$brand-warning:         #fcef83;
+$brand-danger:          #fd5c5c;
+
+$black:         #000;
+$main-color:         #231f20;
+$light-grey:    #f9f9f9;
+$light-grey2:    #f7f7f7;
+$grey:          #c6c6c6;
+$grey2:          #d6d6d6;
+$blue:          #00549f;
+$white:         #fff;
+$light-green:   #3bf8ce;
+$orange:        #ff8441;
+$light-yellow:  #f7f1af;
+$pink:          #f16c9b;
+$red:           #d31111;
+$bd-color:           #d5d5d5;
+
+$font-family-sans-serif:                  'Roboto', sans-serif;
+$font-family-sans-serif-even:             'Roboto Condensed', sans-serif;
+$font-size-base:                          15px;
+$line-height-base:                        1.459333333;
+$navbar-font-size:                        35px;
+$navbar-height:                           70px;
+$navbar-border-radius:                    0;
+$link-color:                              $black;
+$navbar-default-link-color:               $black;
+$navbar-default-link-hover-color:         $black;
+$navbar-default-toggle-icon-bar-bg:       $black;
+$nav-link-padding:                        18px 15px;
+$link-hover-decoration:                   none;
+
+a{
+	transition: all .4s ease-in-out; 
+}
+%listreset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+@mixin linear-gradient($fromColor, $toColor) {
+	background-color: $toColor;
+	background-image: -webkit-linear-gradient(top, $fromColor, $toColor);
+	background-image:		-moz-linear-gradient(top, $fromColor, $toColor);
+	background-image:		 -ms-linear-gradient(top, $fromColor, $toColor);
+	background-image:			-o-linear-gradient(top, $fromColor, $toColor);
+	background-image:				 linear-gradient(top, $fromColor, $toColor);
+}

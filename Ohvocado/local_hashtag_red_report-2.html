@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ohvocado</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/fancybox.css" />
+	<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<div id='wrapper'>
+	<header id='header'>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src='images/logo2.jpg' height="52" width="153" alt='Oh!vocado' /></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<form class="search-form form-inline pull-left">
+						<div class="form-group">
+							<label class="sr-only" for="country">location</label>
+							<select class="country country2" id="country">
+								<option>Panama</option>
+								<option>Panama</option>
+								<option>Panama</option>
+								<option>Panama</option>
+								<option>Panama</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="search">search</label>
+							<div class="input-group">
+								<div class="input-group-addon"><i class="icon-search"></i></div>
+								<input type="search" id="search" placeholder="Restaurant, cuisine, dish" class="form-control">
+							</div>
+						</div>
+						<button type="submit" class="btn btn-danger">Search</button>
+					</form>
+					<div class="sign-in-box pull-right">
+						<a href="#" class="add"><i class="icon-square"></i>Add a listing</a>
+						<div class="sign-up">
+							<a href="#">Sign in</a>
+							<a href="#" class="btn btn-danger">Sign up</a>
+						</div>
+						<div class="sign-in">
+							<a href="#" class="user">Ian Kendrew <span class="caret"></span></a>
+							<img src='images/avatar.png' height="38" width="38" alt='image description' class="avatar img-circle"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main id='main' role='main'>
+		<div class="visual" style="background-image:url(images/img-30.jpg)">
+			<div class="preview-text">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<div class="pull-left">
+								<div class="thumbnail"><img src='images/img-41.jpg' height="119" width="119" alt='image description' class="img-circle" /></div>
+								<h2>Las Clementinas Cafe &amp; Bar</h2>
+								<div class="box">
+									<span>Italian food</span>
+									<ul class="star-rating">
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li><a href="#"><i class="icon-star"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8 col-sm-8">
+							<div class="btn-block">
+								<a href="#" class="btn btn-primary">Follow</a>
+								<a href="#" class="btn btn-primary">Add a photo</a>
+								<a href="#" class="btn btn-primary">Check in</a>
+								<a href="#" class="btn btn-primary">Reservations</a>
+								<a href="#" class="btn btn-primary">Write a review</a>
+								<span class="rating">9.5</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div id="content" class="col-md-8 pull-right js-grid-list-holder">
+					<div class="filter-holder">
+						<div class="grid-list">
+							<a href="#" class="js-btn-list btn btn-default active"><i class="icon-list"></i></a>
+							<a href="#" class="js-btn-grid btn btn-default"><i class="icon-grid"></i></a>
+						</div>
+						<form class="form-filter">
+							<select >
+								<option>Chicken dishes</option>
+								<option>Chicken dishes</option>
+								<option>Chicken dishes</option>
+							</select>
+							<select >
+								<option>Order by rating</option>
+								<option>Order by rating</option>
+								<option>Order by rating</option>
+							</select>
+						</form>
+					</div>
+					<section class="dishes-list">
+						<article class="dish">
+							<div class="row">
+								<div class="col-sm-3 col-xs-3">
+									<div class="img-holder">
+										<img src='images/img-31.jpg' height="119" width="140" alt='image description' class="img-responsive"/>
+									</div>
+									<ul class="image-list list-inline list-unstyled">
+										<li><a href="images/img-33.jpg" class="lightbox" data-fancybox-group="lightbox"><img src='images/img-32.jpg' height="36" width="42" alt='image description' /></a></li>
+										<li><a href="images/img-34.jpg" class="lightbox" data-fancybox-group="lightbox"><img src='images/img-33.jpg' height="36" width="42" alt='image description' /></a></li>
+									</ul>
+								</div>
+								<div class="col-sm-9 col-xs-9">
+									<div class="title">
+										<h1><a href="#">Fried Chicken</a></h1>
+										<span class="price">$8.99</span>
+									</div>
+									<ul class="star-rating">
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li><a href="#"><i class="icon-star"></i></a></li>
+									</ul>
+									<div class="tags">
+										<a href="#">#Chicken</a>
+										<a href="#">#BBQ Sauce</a>
+										<a href="#">#Peppers</a>
+									</div>
+									<div class="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum.</p>
+									</div>
+									<div class="btn-block">
+										<a href="#" class="btn-default btn">Write a review</a>
+										<a href="#" class="btn-default btn">I want</a>
+										<a href="#" class="btn-default btn active">Add a photo</a>
+										<a href="#" class="btn-default btn">Order</a>
+										<a href="#" class="btn-default btn">Share</a>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="dish">
+							<div class="row">
+								<div class="col-sm-3 col-xs-3">
+									<div class="img-holder">
+										<img src='images/img-34.jpg' height="119" width="140" alt='image description' class="img-responsive"/>
+									</div>
+								</div>
+								<div class="col-sm-9 col-xs-9">
+									<div class="title">
+										<h1><a href="#">Chicken Pizza</a></h1>
+										<span class="price">$8.99</span>
+									</div>
+									<ul class="star-rating">
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li><a href="#"><i class="icon-star"></i></a></li>
+									</ul>
+									<div class="tags">
+										<a href="#">#Chicken</a>
+										<a href="#">#Cheese</a>
+										<a href="#">#Tomatoes</a>
+									</div>
+									<div class="description">
+										<p>Suspendisse pretium ligula ante, quis vestibulum est vestibulum a. Pellentesque habitant morbi tristique.</p>
+									</div>
+									<div class="btn-block">
+										<a href="#" class="btn-default btn">Write a review</a>
+										<a href="#" class="btn-default btn">I want</a>
+										<a href="#" class="btn-default btn">Add a photo</a>
+										<a href="#" class="btn-default btn">Order</a>
+										<a href="#" class="btn-default btn">Share</a>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="dish">
+							<div class="row">
+								<div class="col-sm-3 col-xs-3">
+									<div class="img-holder">
+										<img src='images/img-35.jpg' height="119" width="140" alt='image description' class="img-responsive"/>
+									</div>
+								</div>
+								<div class="col-sm-9 col-xs-9">
+									<div class="title">
+										<h1><a href="#">Chicken Breast</a></h1>
+										<span class="price">$8.99</span>
+									</div>
+									<ul class="star-rating">
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li><a href="#"><i class="icon-star"></i></a></li>
+									</ul>
+									<div class="tags">
+										<a href="#">#Chicken</a>
+										<a href="#">#Herbs</a>
+										<a href="#">#Vegetables</a>
+									</div>
+									<div class="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum.</p>
+									</div>
+									<div class="btn-block">
+										<a href="#" class="btn-default btn">Write a review</a>
+										<a href="#" class="btn-default btn">I want</a>
+										<a href="#" class="btn-default btn">Add a photo</a>
+										<a href="#" class="btn-default btn">Order</a>
+										<a href="#" class="btn-default btn">Share</a>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="dish">
+							<div class="row">
+								<div class="col-sm-3 col-xs-3">
+									<div class="img-holder">
+										<img src='images/img-36.jpg' height="119" width="140" alt='image description' class="img-responsive"/>
+									</div>
+								</div>
+								<div class="col-sm-9 col-xs-9">
+									<div class="title">
+										<h1><a href="#">Chicken Salad</a></h1>
+										<span class="price">$8.99</span>
+									</div>
+									<ul class="star-rating">
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li><a href="#"><i class="icon-star"></i></a></li>
+									</ul>
+									<div class="tags">
+										<a href="#">#Chicken</a>
+										<a href="#">#Salad</a>
+										<a href="#">#Chips</a>
+									</div>
+									<div class="description">
+										<p>Suspendisse pretium ligula ante, quis vestibulum est vestibulum a. Pellentesque habitant morbi tristique.</p>
+									</div>
+									<div class="btn-block">
+										<a href="#" class="btn-default btn">Write a review</a>
+										<a href="#" class="btn-default btn">I want</a>
+										<a href="#" class="btn-default btn">Add a photo</a>
+										<a href="#" class="btn-default btn">Order</a>
+										<a href="#" class="btn-default btn">Share</a>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="dish">
+							<div class="row">
+								<div class="col-sm-3 col-xs-3">
+									<div class="img-holder">
+										<img src='images/img-37.jpg' height="119" width="140" alt='image description' class="img-responsive"/>
+									</div>
+								</div>
+								<div class="col-sm-9 col-xs-9">
+									<div class="title">
+										<h1><a href="#">Chicken Sandwich</a></h1>
+										<span class="price">$8.99</span>
+									</div>
+									<ul class="star-rating">
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li><a href="#"><i class="icon-star"></i></a></li>
+									</ul>
+									<div class="tags">
+										<a href="#">#Chicken</a>
+										<a href="#">#Pickles</a>
+										<a href="#">#Tomato</a>
+									</div>
+									<div class="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum.</p>
+									</div>
+									<div class="btn-block">
+										<a href="#" class="btn-default btn">Write a review</a>
+										<a href="#" class="btn-default btn">I want</a>
+										<a href="#" class="btn-default btn">Add a photo</a>
+										<a href="#" class="btn-default btn">Order</a>
+										<a href="#" class="btn-default btn">Share</a>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="dish">
+							<div class="row">
+								<div class="col-sm-3 col-xs-3">
+									<div class="img-holder">
+										<img src='images/img-38.jpg' height="119" width="140" alt='image description' class="img-responsive"/>
+									</div>
+								</div>
+								<div class="col-sm-9 col-xs-9">
+									<div class="title">
+										<h1><a href="#">Chicken Soup</a></h1>
+										<span class="price">$8.99</span>
+									</div>
+									<ul class="star-rating">
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li><a href="#"><i class="icon-star"></i></a></li>
+									</ul>
+									<div class="tags">
+										<a href="#">#Chicken</a>
+										<a href="#">#BBQ Sauce</a>
+										<a href="#">#Peppers</a>
+									</div>
+									<div class="description">
+										<p>Suspendisse pretium ligula ante, quis vestibulum est vestibulum a. Pellentesque habitant morbi tristique.</p>
+									</div>
+									<div class="btn-block">
+										<a href="#" class="btn-default btn">Write a review</a>
+										<a href="#" class="btn-default btn">I want</a>
+										<a href="#" class="btn-default btn">Add a photo</a>
+										<a href="#" class="btn-default btn">Order</a>
+										<a href="#" class="btn-default btn">Share</a>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="dish">
+							<div class="row">
+								<div class="col-sm-3 col-xs-3">
+									<div class="img-holder">
+										<img src='images/img-39.jpg' height="119" width="140" alt='image description' class="img-responsive" />
+									</div>
+								</div>
+								<div class="col-sm-9 col-xs-9">
+									<div class="title">
+										<h1><a href="#">Chicken Platter</a></h1>
+										<span class="price">$8.99</span>
+									</div>
+									<ul class="star-rating">
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li><a href="#"><i class="icon-star"></i></a></li>
+									</ul>
+									<div class="tags">
+										<a href="#">#Chicken</a>
+										<a href="#">#BBQ Sauce</a>
+										<a href="#">#Peppers</a>
+									</div>
+									<div class="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum.</p>
+									</div>
+									<div class="btn-block">
+										<a href="#" class="btn-default btn">Write a review</a>
+										<a href="#" class="btn-default btn">I want</a>
+										<a href="#" class="btn-default btn">Add a photo</a>
+										<a href="#" class="btn-default btn">Order</a>
+										<a href="#" class="btn-default btn">Share</a>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="dish">
+							<div class="row">
+								<div class="col-sm-3 col-xs-3">
+									<div class="img-holder">
+										<img src='images/img-40.jpg' height="119" width="140" alt='image description' class="img-responsive" />
+									</div>
+								</div>
+								<div class="col-sm-9 col-xs-9">
+									<div class="title">
+										<h1><a href="#">Roast Chicken</a></h1>
+										<span class="price">$8.99</span>
+									</div>
+									<ul class="star-rating">
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+										<li><a href="#"><i class="icon-star"></i></a></li>
+									</ul>
+									<div class="tags">
+										<a href="#">#Chicken</a>
+										<a href="#">#Vegetables</a>
+										<a href="#">#Peppers</a>
+									</div>
+									<div class="description">
+										<p>Suspendisse pretium ligula ante, quis vestibulum est vestibulum a. Pellentesque habitant morbi tristique.</p>
+									</div>
+									<div class="btn-block">
+										<a href="#" class="btn-default btn">Write a review</a>
+										<a href="#" class="btn-default btn">I want</a>
+										<a href="#" class="btn-default btn">Add a photo</a>
+										<a href="#" class="btn-default btn">Order</a>
+										<a href="#" class="btn-default btn">Share</a>
+									</div>
+								</div>
+							</div>
+						</article>
+					</section>
+					<section class="review-holder js-infinity-container">
+						<div class="headline">
+							<div class="title pull-left">
+								<h1>Reviews</h1>
+								<span class="badge">50</span>
+							</div>
+							<select class="date-select">
+								<option class="hideme">Order reviews by date</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+						<div class="js-infinity-content">
+							<div class="media">
+								<div class="media-left">
+									<a href="#" class="avatar-holder">
+										<img class="media-object img-circle" src="images/avatar2.jpg" height="57" width="57" alt="avatar">
+									</a>
+									<span>Panama</span>
+									<a href="#">12 reviews</a>
+								</div>
+								<div class="media-body">
+									<h2 class="media-heading"><a href="#">Gerardo Hernandez</a></h2>
+									<div class="data">
+										<ul class="star-rating pull-left">
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li><a href="#"><i class="icon-star"></i></a></li>
+										</ul>
+										<time class="pull-right" datetime="2015-05-20">March 1, 2015</time>
+									</div>
+									<div class="blockquote-holder">
+										<blockquote>
+											<q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel auge condimentum rutrum. Aenean vel ligula ipsum. Suspendisse pretium ligula ante, quis vestibulum est vestibulum a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</q>
+										</blockquote>
+										<ul class="image-list list-unstyled list-inline">
+											<li><a href="images/img-4.jpg" class="lightbox" data-fancybox-group="lightbox"><img src='images/img-27.jpg' height="36" width="42" alt='image description' /></a></li>
+											<li><a href="images/img-5.jpg" class="lightbox" data-fancybox-group="lightbox"><img src='images/img-28.jpg' height="36" width="42" alt='image description' /></a></li>
+											<li><a href="images/img-6.jpg" class="lightbox" data-fancybox-group="lightbox"><img src='images/img-29.jpg' height="36" width="42" alt='image description' /></a></li>
+										</ul>
+										<div class="btn-block">
+											<a href="#" class="btn btn-default">Share</a>
+											<a href="#" class="btn btn-default">Message</a>
+											<a href="#" class="btn btn-default">Like</a>
+											<a href="#" class="btn btn-default">Remove</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="media">
+								<div class="media-left">
+									<a href="#" class="avatar-holder">
+										<img class="media-object img-circle" src="images/avatar3.jpg" height="57" width="57" alt="avatar">
+									</a>
+									<span>Liverpool</span>
+									<a href="#">3 reviews</a>
+								</div>
+								<div class="media-body">
+									<h2 class="media-heading"><a href="#">Ian Kendrew</a></h2>
+									<div class="data">
+										<ul class="star-rating pull-left">
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li><a href="#"><i class="icon-star"></i></a></li>
+										</ul>
+										<time class="pull-right" datetime="2015-05-20">March 1, 2015</time>
+									</div>
+									<div class="blockquote-holder">
+										<blockquote>
+											<q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis ve augue condimentum rutrum. Aenean vel ligula ipsum. Suspendisse pretium ligula ante, quis vestibulum.</q>
+										</blockquote>
+										<div class="btn-block">
+											<a href="#" class="btn btn-default">Share</a>
+											<a href="#" class="btn btn-default">Message</a>
+											<a href="#" class="btn btn-default">Like</a>
+											<a href="#" class="btn btn-default">Remove</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="media">
+								<div class="media-left">
+									<a href="#" class="avatar-holder">
+										<img class="media-object img-circle" src="images/avatar4.jpg" height="57" width="57" alt="avatar">
+									</a>
+									<span>New Orleans</span>
+									<a href="#">79 reviews</a>
+								</div>
+								<div class="media-body">
+									<h2 class="media-heading"><a href="#">Andy Greenwood</a></h2>
+									<div class="data">
+										<ul class="star-rating pull-left">
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+											<li><a href="#"><i class="icon-star"></i></a></li>
+										</ul>
+										<time class="pull-right" datetime="2015-05-20">March 1, 2015</time>
+									</div>
+									<div class="blockquote-holder">
+										<blockquote>
+											<q>Lorem ipsum doloaAenean vel ligula ipsum. Suspendisse pretium ligula ante, quis vestibulum est vestibulum a. Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas.r sit amet, consectetur adipiscing elit.</q>
+										</blockquote>
+										<div class="btn-block">
+											<a href="#" class="btn btn-default">Share</a>
+											<a href="#" class="btn btn-default">Message</a>
+											<a href="#" class="btn btn-default">Like</a>
+											<a href="#" class="btn btn-default">Remove</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="btn-block text-right">
+							<a href="#" class="btn btn-default">Write a review</a>
+							<a href="inc/ajax-reviews1.html" class="btn btn-danger js-btn-load">Load more reviews</a>
+						</div>
+					</section>
+				</div>
+				<aside id="sidebar" class="col-md-4">
+					<div class="map-view">
+						<span class="pin-icon">
+							<i class="icon-pin"></i>
+						</span>
+						<a href="#">View on Google Maps</a>
+					</div>
+					<div class="text-boxes">
+						<div class="text">
+							<p>Calle 11 &amp; Avenida B, Casco Antiguo, Panama, Republica de Panama.</p>
+						</div>
+						<div class="text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum.</p>
+						</div>
+					</div>
+					<div class="social-box">
+						<a href="tel:01234556789" class="tel-link"><i class="icon-phone"></i>012 345 56789</a>
+						<ul class="social-list list-unstyled">
+							<li><a href="#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+						</ul>
+					</div>
+					<table class="category-table table-bordered">
+						<tr>
+							<td>
+								<a href="#">
+									<strong>Followers: </strong>
+									<span class="badge pull-right">100</span>
+								</a>
+							</td>
+							<td>
+								<a href="#">
+									<strong>Reviews:</strong>
+									<span class="badge pull-right">50</span>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#">
+									<strong>Photos: </strong>
+									<span class="badge pull-right">26</span>
+								</a>
+							</td>
+							<td>
+								<a href="#">
+									<strong>Check ins:</strong>
+									<span class="badge pull-right">12</span>
+								</a>
+							</td>
+						</tr>
+					</table>
+					<div class="info-box">
+						<h2>Hours</h2>
+						<ul class="list-group">
+							<li class="list-group-item">
+								<span class="badge">9:00 - 17:00</span>
+								Friday
+							</li>
+							<li class="list-group-item">
+								<span class="badge">9:00 - 17:00</span>
+								Saturday
+							</li>
+							<li class="list-group-item">
+								<span class="badge">9:00 - 17:00</span>
+								Sunday
+							</li>
+							<li class="list-group-item opener"><a class="add" data-toggle="collapse" href="#schedule" aria-expanded="false" aria-controls="schedule"><i class="icon-square"></i>Show more</a></li>
+							<li class="collapse list-group-item" id="schedule">
+								<ul>
+									<li class="list-group-item">
+										<span class="badge">9:00 - 17:00</span>
+										Monday
+									</li>
+									<li class="list-group-item">
+										<span class="badge">9:00 - 17:00</span>
+										Tuesday
+									</li>
+									<li class="list-group-item">
+										<span class="badge">9:00 - 17:00</span>
+										Wednesday
+									</li>
+									<li class="list-group-item">
+										<span class="badge">9:00 - 17:00</span>
+										Thursday
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="info-box">
+						<h2>Photos</h2>
+						<ul class="photo-list list-unstyled">
+							<li>
+								<img src='images/img-42.jpg' height="99" width="117" alt='image description' />
+							</li>
+							<li>
+								<img src='images/img-43.jpg' alt='image description' />
+							</li>
+							<li>
+								<img src='images/img-44.jpg' alt='image description' />
+							</li>
+							<li>
+								<img src='images/img-45.jpg' alt='image description' />
+							</li>
+						</ul>
+					</div>
+					<div class="info-box">
+						<h2>Information</h2>
+						<ul class="list-group">
+							<li class="list-group-item">
+								<span class="badge">$40</span>
+								Price per person
+							</li>
+							<li class="list-group-item">
+								<span class="badge">$$$</span>
+								Price level
+							</li>
+							<li class="list-group-item">
+								<span class="badge text-success">Yes</span>
+								Reservations
+							</li>
+							<li class="list-group-item">
+								<span class="badge text-success">Yes</span>
+								Reservations online
+							</li>
+							<li class="list-group-item">
+								<span class="badge text-danger">No</span>
+								Delivery
+							</li>
+							<li class="list-group-item">
+								<span class="badge text-danger">No</span>
+								Credit card
+							</li>
+							<li class="list-group-item">
+								<span class="badge text-danger">No</span>
+								Parking
+							</li>
+							<li class="list-group-item">
+								<span class="badge text-success">Yes</span>
+								Disbled access
+							</li>
+							<li class="list-group-item">
+								<span class="badge text-success">Yes</span>
+								Suitable for children
+							</li>
+							<li class="list-group-item">
+								<span class="badge text-success">Yes</span>
+								Suitable for groups
+							</li>
+							<li class="list-group-item">
+								<span class="badge text-success">Yes</span>
+								Alcohol
+							</li>
+							<li class="list-group-item">
+								<span class="badge text-danger">No</span>
+								WiFi
+							</li>
+						</ul>
+					</div>
+					<ul class="list-unstyled report-list">
+						<li><a href="#">Reportar Error de Información</a></li>
+						<li><a href="#">Reportar Cierre del Local</a></li>
+					</ul>
+				</aside>
+			</div>
+		</div>
+	</main>
+	<footer id='footer'>
+		<div class="top-footer">
+			<div class="pull-left">
+				<div class='logo'><a href='#'><img src='images/footer-logo.png' alt='Ohvocado' /></a></div>
+				<nav class='nav'>
+					<ul>
+						<li><a href='#'>About us</a></li>
+						<li><a href='#'>Media</a></li>
+						<li><a href='#'>Help</a></li>
+						<li><a href='#'>Advertisers</a></li>
+						<li><a href='#'>Terms</a></li>
+						<li><a href='#'>Privacy</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="pull-right apps-holder">
+				<div class="apps-box">
+					<span>Available now for <strong>Android</strong> and <strong>iOS</strong></span>
+					<a href="#"><img src='images/google-play.png' height="26" width="24" alt='image description' /></a>
+					<a href="#"><i class="icon-apple"></i></a>
+				</div>
+				<a href="#" class="btn btn-danger">Add a listing</a>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<p class="copyright pull-left">©2015 Ovocado. All rights reserved.</p>
+			<ul class="social-networks pull-right">
+				<li><a href="#"><i class="icon-twitter"></i></a></li>
+				<li><a href="#"><i class="icon-facebook"></i></a></li>
+				<li><a href="#"><i class="icon-instagram"></i></a></li>
+				<li><a href="#"><i class="icon-pinterest"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.main.js"></script>
+<script type="text/javascript">
+	if (navigator.userAgent.match(/IEMobile\/10\.0/) || navigator.userAgent.match(/MSIE 10.*Touch/)) {
+		var msViewportStyle = document.createElement('style')
+		msViewportStyle.appendChild(
+			document.createTextNode(
+				'@-ms-viewport{width:auto !important}'
+			)
+		)
+		document.querySelector('head').appendChild(msViewportStyle)
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-calendar {
+    width: 20px;
+    height: 20px;
+    background-position: -20px -20px;
+}
+
+.sprite-cancel {
+    width: 24px;
+    height: 24px;
+    background-position: -20px -80px;
+}
+
+.sprite-notification {
+    width: 24px;
+    height: 24px;
+    background-position: -20px -144px;
+}
+
+.sprite-notification-active-red-copy {
+    width: 24px;
+    height: 24px;
+    background-position: -20px -208px;
+}
+
+.sprite-ok {
+    width: 40px;
+    height: 40px;
+    background-position: -20px -272px;
+}
+
+.sprite-ok-white {
+    width: 20px;
+    height: 20px;
+    background-position: -20px -352px;
+}
+
+.sprite-photo-blue-copy {
+    width: 30px;
+    height: 30px;
+    background-position: -20px -412px;
+}
+
+.sprite-send {
+    width: 24px;
+    height: 24px;
+    background-position: -20px -482px;
+}

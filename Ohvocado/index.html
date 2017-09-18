@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ohvocado</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<div id='wrapper' class="home-page">
+	<header id='header'>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src='images/logo.png' height="49" width="142" alt='Oh!vocado' /></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class="sign-in-box pull-right">
+						<a href="#" class="add"><i class="icon-square"></i>Add a listing</a>
+						<div class="sign-up">
+							<a href="#">Sign in</a>
+							<a href="#" class="btn btn-danger">Sign up</a>
+						</div>
+						<div class="sign-in">
+							<a href="#" class="user">Ian Kendrew <span class="caret"></span></a>
+							<img src='images/avatar.png' height="38" width="38" alt='image description' class="avatar img-circle"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main id='main' role='main'>
+		<div class="visual-box" style="background-image:url(images/img-1.jpg)">
+			<div class="text-box-holder">
+				<div class="text-box">
+					<h1>Discover great dishes to eat around your city</h1>
+					<form class="search-form form-inline">
+						<div class="form-group">
+							<label class="sr-only" for="country">location</label>
+							<select class="country" id="country">
+								<option>Panama</option>
+								<option>Panama</option>
+								<option>Panama</option>
+								<option>Panama</option>
+								<option>Panama</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="search">search</label>
+							<div class="input-group">
+								<div class="input-group-addon"><i class="icon-search"></i></div>
+								<input type="search" id="search" placeholder="Restaurant, cuisine, dish" class="form-control">
+							</div>
+						</div>
+						<button type="submit" class="btn btn-danger">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="category-holder js-infinity-container" data-url="inc/ajax-images1.html">
+				<div class="category-box js-infinity-content">
+					<div class="clearfix">
+						<div class="category category-1">
+							<a href="#">
+								<img src='images/img-2.jpg' height="240" width="380" alt='image description' class="img-responsive"/>
+								<div class="title">
+									<strong>American Food</strong>
+								</div>
+							</a>
+						</div>
+						<div class="category category-2">
+							<a href="#">
+								<img src='images/img-3.jpg' height="243" width="260" alt='image description' class="img-responsive"/>
+								<div class="title">
+									<strong>Postres</strong>
+								</div>
+							</a>
+						</div>
+						<div class="category category-3 pull-right">
+							<a href="#">
+								<img src='images/img-4.jpg' height="244" width="270" alt='image description' class="img-responsive"/>
+								<div class="title">
+									<strong>Salads</strong>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="clearfix">
+						<div class="category category-4">
+							<a href="#">
+								<img src='images/img-5.jpg' height="215" width="234" alt='image description' class="img-responsive"/>
+								<div class="title">
+									<strong>Food Truck</strong>
+								</div>
+							</a>
+						</div>
+						<div class="category category-5">
+							<a href="#">
+								<img src='images/img-6.jpg' height="215" width="410" alt='image description' class="img-responsive"/>
+								<div class="title">
+									<strong>Italian Food</strong>
+								</div>
+							</a>
+						</div>
+						<div class="category pull-right category-6">
+							<a href="#">
+								<img src='images/img-7.jpg' height="446" width="267" alt='image description' class="img-responsive"/>
+								<div class="title">
+									<strong>Drinks</strong>
+								</div>
+							</a>
+						</div>
+						<div class="category category-7">
+							<a href="#">
+								<img src='images/img-8.jpg' height="214" width="398" alt='image description'  class="img-responsive"/>
+								<div class="title">
+									<strong>Delis Gourmet</strong>
+								</div>
+							</a>
+						</div>
+						<div class="category category-8">
+							<a href="#">
+								<img src='images/img-9.jpg' height="217" width="250" alt='image description' class="img-responsive"/>
+								<div class="title">
+									<strong>Coffee</strong>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="btn-holder">
+					<a href="inc/ajax-images1.html" class="btn btn-default js-btn-load">Ver más</a>
+				</div>
+			</div>
+			<section class="featured-box js-infinity-container" data-url="inc/ajax-items1.html">
+				<div class="heading">
+					<h1>Platos Destacados:</h1>
+					<div class="filter-box">
+						<form class="filter-form js-filters-form">
+							<label class="radio-inline btn btn-default">
+								<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked >Populares
+							</label>
+							<label class="radio-inline btn btn-default">
+								<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">Promociones
+							</label>
+							<label class="radio-inline btn btn-default">
+								<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">Nuevos
+							</label>
+						</form>
+						<a href="#" class="add"><i class="icon-square"></i>Add a listing</a>
+					</div>
+				</div>
+				<div class="row js-infinity-content">
+					<div class="col-md-3 col-sm-6 col-xs-6 product">
+						<div class="img-holder">
+							<img src='images/img-10.jpg' height="160" width="220" alt='image description' />
+							<ul class="star-rating">
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li><a href="#"><i class="icon-star"></i></a></li>
+							</ul>
+						</div>
+						<div class="title clearfix">
+							<h2 class="pull-left"><a href="#">Lomito</a></h2>
+							<div class="price">
+								<span>$8.99</span>
+							</div>
+						</div>
+						<h2><a href="#">Las Clementinas Café &amp; Bar</a></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum. Lorem ipsum dolor sit </p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 product">
+						<div class="img-holder">
+							<img src='images/img-11.jpg' height="161" width="220" alt='image description' />
+							<ul class="star-rating">
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li><a href="#"><i class="icon-star"></i></a></li>
+							</ul>
+						</div>
+						<div class="title clearfix">
+							<h2 class="pull-left"><a href="#">Pizza</a></h2>
+							<div class="price">
+								<span>$8.99</span>
+							</div>
+						</div>
+						<h2><a href="#">Las Clementinas Café &amp; Bar</a></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum. Lorem ipsum dolor sit </p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 product">
+						<div class="img-holder">
+							<img src='images/img-12.jpg' height="160" width="220" alt='image description' />
+							<ul class="star-rating">
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li><a href="#"><i class="icon-star"></i></a></li>
+							</ul>
+						</div>
+						<div class="title clearfix">
+							<h2 class="pull-left"><a href="#">Mousse</a></h2>
+							<div class="price">
+								<span>$8.99</span>
+							</div>
+						</div>
+						<h2><a href="#">Las Clementinas Café &amp; Bar</a></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum. Lorem ipsum dolor sit </p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6  product">
+						<div class="img-holder">
+							<img src='images/img-13.jpg' height="160" width="220" alt='image description' />
+							<ul class="star-rating">
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li><a href="#"><i class="icon-star"></i></a></li>
+							</ul>
+						</div>
+						<div class="title clearfix">
+							<h2 class="pull-left"><a href="#">Milhojas</a></h2>
+							<div class="price">
+								<span>$8.99</span>
+							</div>
+						</div>
+						<h2><a href="#">Las Clementinas Café &amp; Bar</a></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque turpis vel augue condimentum rutrum. Lorem ipsum dolor sit </p>
+					</div>
+				</div>
+				<div class="btn-holder">
+					<a href="inc/ajax-items1.html" class="btn btn-default js-btn-load">Ver más</a>
+				</div>
+			</section>
+			<section class="featured-box js-infinity-container" data-url="inc/ajax-items3.html">
+				<div class="heading">
+					<h1>Restaurantes Destacados:</h1>
+					<div class="filter-box">
+						<form class="filter-form js-filters-form">
+							<label class="radio-inline btn btn-default">
+								<input type="radio" name="inlineRadioOptions2" id="inlineRadio4" value="option1" checked >Populares
+							</label>
+							<label class="radio-inline btn btn-default">
+								<input type="radio" name="inlineRadioOptions2" id="inlineRadio5" value="option2">Promociones
+							</label>
+							<label class="radio-inline btn btn-default">
+								<input type="radio" name="inlineRadioOptions2" id="inlineRadio6" value="option3">Nuevos
+							</label>
+						</form>
+						<a href="#" class="add"><i class="icon-square"></i>Add a listing</a>
+					</div>
+				</div>
+				<div class="row js-infinity-content">
+					<div class="col-md-3 col-sm-6 col-xs-6 product">
+						<div class="img-holder">
+							<img src='images/img-14.jpg' height="161" width="219" alt='image description' />
+							<ul class="star-rating">
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li><a href="#"><i class="icon-star"></i></a></li>
+							</ul>
+						</div>
+						<h2><a href="#">Las Clementinas Café &amp; Bar</a></h2>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 product">
+						<div class="img-holder">
+							<img src='images/img-15.jpg' height="161" width="221" alt='image description' />
+							<ul class="star-rating">
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li><a href="#"><i class="icon-star"></i></a></li>
+							</ul>
+						</div>
+						<h2><a href="#">Napoli Restaurant</a></h2>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 product">
+						<div class="img-holder">
+							<img src='images/img-16.jpg' height="163" width="220" alt='image description' />
+							<ul class="star-rating">
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li><a href="#"><i class="icon-star"></i></a></li>
+							</ul>
+						</div>
+						<h2><a href="#">Isabellel Restaurant</a></h2>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 product">
+						<div class="img-holder">
+							<img src='images/img-17.jpg' height="160" width="224" alt='image description' />
+							<ul class="star-rating">
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li class="selected"><a href="#"><i class="icon-star"></i></a></li>
+								<li><a href="#"><i class="icon-star"></i></a></li>
+							</ul>
+						</div>
+						<h2><a href="#">Paladar Café &amp; Bar</a></h2>
+					</div>
+				</div>
+				<div class="btn-holder">
+					<a href="inc/ajax-items3.html" class="btn btn-default js-btn-load">Ver más</a>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer id='footer'>
+		<div class="top-footer">
+			<div class="pull-left">
+				<div class='logo'><a href='#'><img src='images/footer-logo.png' alt='Ohvocado' /></a></div>
+				<nav class='nav'>
+					<ul>
+						<li><a href='#'>About us</a></li>
+						<li><a href='#'>Media</a></li>
+						<li><a href='#'>Help</a></li>
+						<li><a href='#'>Advertisers</a></li>
+						<li><a href='#'>Terms</a></li>
+						<li><a href='#'>Privacy</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="pull-right apps-holder">
+				<div class="apps-box">
+					<span>Available now for <strong>Android</strong> and <strong>iOS</strong></span>
+					<a href="#"><img src='images/google-play.png' height="26" width="24" alt='image description' /></a>
+					<a href="#"><i class="icon-apple"></i></a>
+				</div>
+				<a href="#" class="btn btn-danger">Add a listing</a>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<p class="copyright pull-left">©2015 Ovocado. All rights reserved.</p>
+			<ul class="social-networks pull-right">
+				<li><a href="#"><i class="icon-twitter"></i></a></li>
+				<li><a href="#"><i class="icon-facebook"></i></a></li>
+				<li><a href="#"><i class="icon-instagram"></i></a></li>
+				<li><a href="#"><i class="icon-pinterest"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.main.js"></script>
+<script type="text/javascript">
+	if (navigator.userAgent.match(/IEMobile\/10\.0/) || navigator.userAgent.match(/MSIE 10.*Touch/)) {
+		var msViewportStyle = document.createElement('style')
+		msViewportStyle.appendChild(
+			document.createTextNode(
+				'@-ms-viewport{width:auto !important}'
+			)
+		)
+		document.querySelector('head').appendChild(msViewportStyle)
+	}
+</script>
+</body>
+</html>
